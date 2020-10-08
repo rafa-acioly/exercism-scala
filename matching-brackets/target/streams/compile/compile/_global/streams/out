@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/home/rafaelacioly/exercism/scala/matching-brackets/src/main/scala/MatchingBrackets.scala:10:41: type mismatch;[0m[0J
+[0m[[0m[31merror[0m] [0m[0m found   : scala.collection.mutable.Stack[Nothing][0m[0J
+[0m[[0m[31merror[0m] [0m[0m required: scala.collection.mutable.Stack[Char][0m[0J
+[0m[[0m[31merror[0m] [0m[0mNote: Nothing <: Char, but class Stack is invariant in type A.[0m[0J
+[0m[[0m[31merror[0m] [0m[0mYou may wish to investigate a wildcard type such as `_ <: Char`. (SLS 3.2.10)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m    val open_stack: Stack[Char] = Stack.empty[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/home/rafaelacioly/exercism/scala/matching-brackets/src/main/scala/MatchingBrackets.scala:14:43: not found: value brackets[0m[0J
+[0m[[0m[31merror[0m] [0m[0m        if (open_stack.isEmpty || char != brackets(open_stack.pop)) false[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m[0J

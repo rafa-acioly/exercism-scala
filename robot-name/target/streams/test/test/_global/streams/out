@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RobotNameSpecs, org.scalatest.tools.Framework$$anon$1@b54e50, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mRobotNameSpecs:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- has a name[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[33m- does not change its name (pending)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[33m- does not have the same name as other robots (pending)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[33m- can have its name reset (pending)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m- a large number of new instances have unique names *** FAILED ***[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  MR768 is repeated (RobotNameTest.scala:44)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 772 milliseconds.[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 1, canceled 0, ignored 0, pending 3[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m[0J
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	RobotNameSpecs[0m[0J
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m[0J
