@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="rafael-acioly" name="BeerSongTest" tests="8" errors="0" failures="1" skipped="7" time="0.04" timestamp="2020-10-09T13:56:50">
+                     <properties>
+      <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://ubuntu.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/><property name="sun.java.command" value="/usr/share/sbt/bin/sbt-launch.jar test"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2020-07-14"/><property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.8+10-post-Ubuntu-0ubuntu120.04"/><property name="user.name" value="rafaelacioly"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/rafaelacioly/.cache/JNA/temp/jna7762296410449196327.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.8"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Ubuntu"/><property name="scala.ext.dirs" value="/home/rafaelacioly/.sbt/0.13/java9-rt-ext-ubuntu_11_0_8"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="gnome"/><property name="java.class.path" value="/usr/share/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Ubuntu"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="America/Sao_Paulo"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="BR"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/rafaelacioly"/><property name="user.language" value="pt"/><property name="swoval.tmpdir" value="/home/rafaelacioly/.sbt/1.0"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.4.0-48-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/><property name="user.dir" value="/home/rafaelacioly/exercism/scala/beer-song"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="11.0.8+10-post-Ubuntu-0ubuntu120.04"/><property name="java.class.version" value="55.0"/>
+    </properties>
+                     <testcase classname="BeerSongTest" name="first generic verse" time="0.033">
+                                                 <failure message="&quot;... pass it around, 98 [of beer on the wall.
+98 bottles of beer on the wall, 98 bottles of beer.
+Take one down and pass it around, 97 of beer on the wall.
+97 bottles of beer on the wall, 97 bottles of beer.
+Take one down and pass it around, 96 of beer on the wall.
+96 bottles of beer on the wall, 96 bottles of beer.
+Take one down and pass it around, 95 of beer on the wall.
+95 bottles of beer on the wall, 95 bottles of beer.
+Take one down and pass it around, 94 of beer on the wall.
+94 bottles of beer on the wall, 94 bottles of beer.
+Take one down and pass it around, 93 of beer on the wall.
+93 bottles of beer on the wall, 93 bottles of beer.
+Take one down and pass it around, 92 of beer on the wall.
+92 bottles of beer on the wall, 92 bottles of beer.
+Take one down and pass it around, 91 of beer on the wall.
+91 bottles of beer on the wall, 91 bottles of beer.
+Take one down and pass it around, 90 of beer on the wall.
+90 bottles of beer on the wall, 90 bottles of beer.
+Take one down and pass it around, 89 of beer on the wall.
+89 bottles of beer on the wall, 89 bottles of beer.
+Take one down and pass it around, 88 of beer on the wall.
+88 bottles of beer on the wall, 88 bottles of beer.
+Take one down and pass it around, 87 of beer on the wall.
+87 bottles of beer on the wall, 87 bottles of beer.
+Take one down and pass it around, 86 of beer on the wall.
+86 bottles of beer on the wall, 86 bottles of beer.
+Take one down and pass it around, 85 of beer on the wall.
+85 bottles of beer on the wall, 85 bottles of beer.
+Take one down and pass it around, 84 of beer on the wall.
+84 bottles of beer on the wall, 84 bottles of beer.
+Take one down and pass it around, 83 of beer on the wall.
+83 bottles of beer on the wall, 83 bottles of beer.
+Take one down and pass it around, 82 of beer on the wall.
+82 bottles of beer on the wall, 82 bottles of beer.
+Take one down and pass it around, 81 of beer on the wall.
+81 bottles of beer on the wall, 81 bottles of beer.
+Take one down and pass it around, 80 of beer on the wall.
+80 bottles of beer on the wall, 80 bottles of beer.
+Take one down and pass it around, 79 of beer on the wall.
+79 bottles of beer on the wall, 79 bottles of beer.
+Take one down and pass it around, 78 of beer on the wall.
+78 bottles of beer on the wall, 78 bottles of beer.
+Take one down and pass it around, 77 of beer on the wall.
+77 bottles of beer on the wall, 77 bottles of beer.
+Take one down and pass it around, 76 of beer on the wall.
+76 bottles of beer on the wall, 76 bottles of beer.
+Take one down and pass it around, 75 of beer on the wall.
+75 bottles of beer on the wall, 75 bottles of beer.
+Take one down and pass it around, 74 of beer on the wall.
+74 bottles of beer on the wall, 74 bottles of beer.
+Take one down and pass it around, 73 of beer on the wall.
+73 bottles of beer on the wall, 73 bottles of beer.
+Take one down and pass it around, 72 of beer on the wall.
+72 bottles of beer on the wall, 72 bottles of beer.
+Take one down and pass it around, 71 of beer on the wall.
+71 bottles of beer on the wall, 71 bottles of beer.
+Take one down and pass it around, 70 of beer on the wall.
+70 bottles of beer on the wall, 70 bottles of beer.
+Take one down and pass it around, 69 of beer on the wall.
+69 bottles of beer on the wall, 69 bottles of beer.
+Take one down and pass it around, 68 of beer on the wall.
+68 bottles of beer on the wall, 68 bottles of beer.
+Take one down and pass it around, 67 of beer on the wall.
+67 bottles of beer on the wall, 67 bottles of beer.
+Take one down and pass it around, 66 of beer on the wall.
+66 bottles of beer on the wall, 66 bottles of beer.
+Take one down and pass it around, 65 of beer on the wall.
+65 bottles of beer on the wall, 65 bottles of beer.
+Take one down and pass it around, 64 of beer on the wall.
+64 bottles of beer on the wall, 64 bottles of beer.
+Take one down and pass it around, 63 of beer on the wall.
+63 bottles of beer on the wall, 63 bottles of beer.
+Take one down and pass it around, 62 of beer on the wall.
+62 bottles of beer on the wall, 62 bottles of beer.
+Take one down and pass it around, 61 of beer on the wall.
+61 bottles of beer on the wall, 61 bottles of beer.
+Take one down and pass it around, 60 of beer on the wall.
+60 bottles of beer on the wall, 60 bottles of beer.
+Take one down and pass it around, 59 of beer on the wall.
+59 bottles of beer on the wall, 59 bottles of beer.
+Take one down and pass it around, 58 of beer on the wall.
+58 bottles of beer on the wall, 58 bottles of beer.
+Take one down and pass it around, 57 of beer on the wall.
+57 bottles of beer on the wall, 57 bottles of beer.
+Take one down and pass it around, 56 of beer on the wall.
+56 bottles of beer on the wall, 56 bottles of beer.
+Take one down and pass it around, 55 of beer on the wall.
+55 bottles of beer on the wall, 55 bottles of beer.
+Take one down and pass it around, 54 of beer on the wall.
+54 bottles of beer on the wall, 54 bottles of beer.
+Take one down and pass it around, 53 of beer on the wall.
+53 bottles of beer on the wall, 53 bottles of beer.
+Take one down and pass it around, 52 of beer on the wall.
+52 bottles of beer on the wall, 52 bottles of beer.
+Take one down and pass it around, 51 of beer on the wall.
+51 bottles of beer on the wall, 51 bottles of beer.
+Take one down and pass it around, 50 of beer on the wall.
+50 bottles of beer on the wall, 50 bottles of beer.
+Take one down and pass it around, 49 of beer on the wall.
+49 bottles of beer on the wall, 49 bottles of beer.
+Take one down and pass it around, 48 of beer on the wall.
+48 bottles of beer on the wall, 48 bottles of beer.
+Take one down and pass it around, 47 of beer on the wall.
+47 bottles of beer on the wall, 47 bottles of beer.
+Take one down and pass it around, 46 of beer on the wall.
+46 bottles of beer on the wall, 46 bottles of beer.
+Take one down and pass it around, 45 of beer on the wall.
+45 bottles of beer on the wall, 45 bottles of beer.
+Take one down and pass it around, 44 of beer on the wall.
+44 bottles of beer on the wall, 44 bottles of beer.
+Take one down and pass it around, 43 of beer on the wall.
+43 bottles of beer on the wall, 43 bottles of beer.
+Take one down and pass it around, 42 of beer on the wall.
+42 bottles of beer on the wall, 42 bottles of beer.
+Take one down and pass it around, 41 of beer on the wall.
+41 bottles of beer on the wall, 41 bottles of beer.
+Take one down and pass it around, 40 of beer on the wall.
+40 bottles of beer on the wall, 40 bottles of beer.
+Take one down and pass it around, 39 of beer on the wall.
+39 bottles of beer on the wall, 39 bottles of beer.
+Take one down and pass it around, 38 of beer on the wall.
+38 bottles of beer on the wall, 38 bottles of beer.
+Take one down and pass it around, 37 of beer on the wall.
+37 bottles of beer on the wall, 37 bottles of beer.
+Take one down and pass it around, 36 of beer on the wall.
+36 bottles of beer on the wall, 36 bottles of beer.
+Take one down and pass it around, 35 of beer on the wall.
+35 bottles of beer on the wall, 35 bottles of beer.
+Take one down and pass it around, 34 of beer on the wall.
+34 bottles of beer on the wall, 34 bottles of beer.
+Take one down and pass it around, 33 of beer on the wall.
+33 bottles of beer on the wall, 33 bottles of beer.
+Take one down and pass it around, 32 of beer on the wall.
+32 bottles of beer on the wall, 32 bottles of beer.
+Take one down and pass it around, 31 of beer on the wall.
+31 bottles of beer on the wall, 31 bottles of beer.
+Take one down and pass it around, 30 of beer on the wall.
+30 bottles of beer on the wall, 30 bottles of beer.
+Take one down and pass it around, 29 of beer on the wall.
+29 bottles of beer on the wall, 29 bottles of beer.
+Take one down and pass it around, 28 of beer on the wall.
+28 bottles of beer on the wall, 28 bottles of beer.
+Take one down and pass it around, 27 of beer on the wall.
+27 bottles of beer on the wall, 27 bottles of beer.
+Take one down and pass it around, 26 of beer on the wall.
+26 bottles of beer on the wall, 26 bottles of beer.
+Take one down and pass it around, 25 of beer on the wall.
+25 bottles of beer on the wall, 25 bottles of beer.
+Take one down and pass it around, 24 of beer on the wall.
+24 bottles of beer on the wall, 24 bottles of beer.
+Take one down and pass it around, 23 of beer on the wall.
+23 bottles of beer on the wall, 23 bottles of beer.
+Take one down and pass it around, 22 of beer on the wall.
+22 bottles of beer on the wall, 22 bottles of beer.
+Take one down and pass it around, 21 of beer on the wall.
+21 bottles of beer on the wall, 21 bottles of beer.
+Take one down and pass it around, 20 of beer on the wall.
+20 bottles of beer on the wall, 20 bottles of beer.
+Take one down and pass it around, 19 of beer on the wall.
+19 bottles of beer on the wall, 19 bottles of beer.
+Take one down and pass it around, 18 of beer on the wall.
+18 bottles of beer on the wall, 18 bottles of beer.
+Take one down and pass it around, 17 of beer on the wall.
+17 bottles of beer on the wall, 17 bottles of beer.
+Take one down and pass it around, 16 of beer on the wall.
+16 bottles of beer on the wall, 16 bottles of beer.
+Take one down and pass it around, 15 of beer on the wall.
+15 bottles of beer on the wall, 15 bottles of beer.
+Take one down and pass it around, 14 of beer on the wall.
+14 bottles of beer on the wall, 14 bottles of beer.
+Take one down and pass it around, 13 of beer on the wall.
+13 bottles of beer on the wall, 13 bottles of beer.
+Take one down and pass it around, 12 of beer on the wall.
+12 bottles of beer on the wall, 12 bottles of beer.
+Take one down and pass it around, 11 of beer on the wall.
+11 bottles of beer on the wall, 11 bottles of beer.
+Take one down and pass it around, 10 of beer on the wall.
+10 bottles of beer on the wall, 10 bottles of beer.
+Take one down and pass it around, 9 of beer on the wall.
+9 bottles of beer on the wall, 9 bottles of beer.
+Take one down and pass it around, 8 of beer on the wall.
+8 bottles of beer on the wall, 8 bottles of beer.
+Take one down and pass it around, 7 of beer on the wall.
+7 bottles of beer on the wall, 7 bottles of beer.
+Take one down and pass it around, 6 of beer on the wall.
+6 bottles of beer on the wall, 6 bottles of beer.
+Take one down and pass it around, 5 of beer on the wall.
+5 bottles of beer on the wall, 5 bottles of beer.
+Take one down and pass it around, 4 of beer on the wall.
+4 bottles of beer on the wall, 4 bottles of beer.
+Take one down and pass it around, 3 of beer on the wall.
+3 bottles of beer on the wall, 3 bottles of beer.
+Take one down and pass it around, 2 of beer on the wall.
+2 bottles of beer on the wall, 2 bottles of beer.
+Take one down and pass it around, 1 of beer on the wall.
+1 bottles of beer on the wall, 1 bottles of beer.
+Take one down and pass it around, no more ]bottles of beer on t...&quot; was not equal to &quot;... pass it around, 98 []bottles of beer on t...&quot;" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: &quot;... pass it around, 98 [of beer on the wall.
+98 bottles of beer on the wall, 98 bottles of beer.
+Take one down and pass it around, 97 of beer on the wall.
+97 bottles of beer on the wall, 97 bottles of beer.
+Take one down and pass it around, 96 of beer on the wall.
+96 bottles of beer on the wall, 96 bottles of beer.
+Take one down and pass it around, 95 of beer on the wall.
+95 bottles of beer on the wall, 95 bottles of beer.
+Take one down and pass it around, 94 of beer on the wall.
+94 bottles of beer on the wall, 94 bottles of beer.
+Take one down and pass it around, 93 of beer on the wall.
+93 bottles of beer on the wall, 93 bottles of beer.
+Take one down and pass it around, 92 of beer on the wall.
+92 bottles of beer on the wall, 92 bottles of beer.
+Take one down and pass it around, 91 of beer on the wall.
+91 bottles of beer on the wall, 91 bottles of beer.
+Take one down and pass it around, 90 of beer on the wall.
+90 bottles of beer on the wall, 90 bottles of beer.
+Take one down and pass it around, 89 of beer on the wall.
+89 bottles of beer on the wall, 89 bottles of beer.
+Take one down and pass it around, 88 of beer on the wall.
+88 bottles of beer on the wall, 88 bottles of beer.
+Take one down and pass it around, 87 of beer on the wall.
+87 bottles of beer on the wall, 87 bottles of beer.
+Take one down and pass it around, 86 of beer on the wall.
+86 bottles of beer on the wall, 86 bottles of beer.
+Take one down and pass it around, 85 of beer on the wall.
+85 bottles of beer on the wall, 85 bottles of beer.
+Take one down and pass it around, 84 of beer on the wall.
+84 bottles of beer on the wall, 84 bottles of beer.
+Take one down and pass it around, 83 of beer on the wall.
+83 bottles of beer on the wall, 83 bottles of beer.
+Take one down and pass it around, 82 of beer on the wall.
+82 bottles of beer on the wall, 82 bottles of beer.
+Take one down and pass it around, 81 of beer on the wall.
+81 bottles of beer on the wall, 81 bottles of beer.
+Take one down and pass it around, 80 of beer on the wall.
+80 bottles of beer on the wall, 80 bottles of beer.
+Take one down and pass it around, 79 of beer on the wall.
+79 bottles of beer on the wall, 79 bottles of beer.
+Take one down and pass it around, 78 of beer on the wall.
+78 bottles of beer on the wall, 78 bottles of beer.
+Take one down and pass it around, 77 of beer on the wall.
+77 bottles of beer on the wall, 77 bottles of beer.
+Take one down and pass it around, 76 of beer on the wall.
+76 bottles of beer on the wall, 76 bottles of beer.
+Take one down and pass it around, 75 of beer on the wall.
+75 bottles of beer on the wall, 75 bottles of beer.
+Take one down and pass it around, 74 of beer on the wall.
+74 bottles of beer on the wall, 74 bottles of beer.
+Take one down and pass it around, 73 of beer on the wall.
+73 bottles of beer on the wall, 73 bottles of beer.
+Take one down and pass it around, 72 of beer on the wall.
+72 bottles of beer on the wall, 72 bottles of beer.
+Take one down and pass it around, 71 of beer on the wall.
+71 bottles of beer on the wall, 71 bottles of beer.
+Take one down and pass it around, 70 of beer on the wall.
+70 bottles of beer on the wall, 70 bottles of beer.
+Take one down and pass it around, 69 of beer on the wall.
+69 bottles of beer on the wall, 69 bottles of beer.
+Take one down and pass it around, 68 of beer on the wall.
+68 bottles of beer on the wall, 68 bottles of beer.
+Take one down and pass it around, 67 of beer on the wall.
+67 bottles of beer on the wall, 67 bottles of beer.
+Take one down and pass it around, 66 of beer on the wall.
+66 bottles of beer on the wall, 66 bottles of beer.
+Take one down and pass it around, 65 of beer on the wall.
+65 bottles of beer on the wall, 65 bottles of beer.
+Take one down and pass it around, 64 of beer on the wall.
+64 bottles of beer on the wall, 64 bottles of beer.
+Take one down and pass it around, 63 of beer on the wall.
+63 bottles of beer on the wall, 63 bottles of beer.
+Take one down and pass it around, 62 of beer on the wall.
+62 bottles of beer on the wall, 62 bottles of beer.
+Take one down and pass it around, 61 of beer on the wall.
+61 bottles of beer on the wall, 61 bottles of beer.
+Take one down and pass it around, 60 of beer on the wall.
+60 bottles of beer on the wall, 60 bottles of beer.
+Take one down and pass it around, 59 of beer on the wall.
+59 bottles of beer on the wall, 59 bottles of beer.
+Take one down and pass it around, 58 of beer on the wall.
+58 bottles of beer on the wall, 58 bottles of beer.
+Take one down and pass it around, 57 of beer on the wall.
+57 bottles of beer on the wall, 57 bottles of beer.
+Take one down and pass it around, 56 of beer on the wall.
+56 bottles of beer on the wall, 56 bottles of beer.
+Take one down and pass it around, 55 of beer on the wall.
+55 bottles of beer on the wall, 55 bottles of beer.
+Take one down and pass it around, 54 of beer on the wall.
+54 bottles of beer on the wall, 54 bottles of beer.
+Take one down and pass it around, 53 of beer on the wall.
+53 bottles of beer on the wall, 53 bottles of beer.
+Take one down and pass it around, 52 of beer on the wall.
+52 bottles of beer on the wall, 52 bottles of beer.
+Take one down and pass it around, 51 of beer on the wall.
+51 bottles of beer on the wall, 51 bottles of beer.
+Take one down and pass it around, 50 of beer on the wall.
+50 bottles of beer on the wall, 50 bottles of beer.
+Take one down and pass it around, 49 of beer on the wall.
+49 bottles of beer on the wall, 49 bottles of beer.
+Take one down and pass it around, 48 of beer on the wall.
+48 bottles of beer on the wall, 48 bottles of beer.
+Take one down and pass it around, 47 of beer on the wall.
+47 bottles of beer on the wall, 47 bottles of beer.
+Take one down and pass it around, 46 of beer on the wall.
+46 bottles of beer on the wall, 46 bottles of beer.
+Take one down and pass it around, 45 of beer on the wall.
+45 bottles of beer on the wall, 45 bottles of beer.
+Take one down and pass it around, 44 of beer on the wall.
+44 bottles of beer on the wall, 44 bottles of beer.
+Take one down and pass it around, 43 of beer on the wall.
+43 bottles of beer on the wall, 43 bottles of beer.
+Take one down and pass it around, 42 of beer on the wall.
+42 bottles of beer on the wall, 42 bottles of beer.
+Take one down and pass it around, 41 of beer on the wall.
+41 bottles of beer on the wall, 41 bottles of beer.
+Take one down and pass it around, 40 of beer on the wall.
+40 bottles of beer on the wall, 40 bottles of beer.
+Take one down and pass it around, 39 of beer on the wall.
+39 bottles of beer on the wall, 39 bottles of beer.
+Take one down and pass it around, 38 of beer on the wall.
+38 bottles of beer on the wall, 38 bottles of beer.
+Take one down and pass it around, 37 of beer on the wall.
+37 bottles of beer on the wall, 37 bottles of beer.
+Take one down and pass it around, 36 of beer on the wall.
+36 bottles of beer on the wall, 36 bottles of beer.
+Take one down and pass it around, 35 of beer on the wall.
+35 bottles of beer on the wall, 35 bottles of beer.
+Take one down and pass it around, 34 of beer on the wall.
+34 bottles of beer on the wall, 34 bottles of beer.
+Take one down and pass it around, 33 of beer on the wall.
+33 bottles of beer on the wall, 33 bottles of beer.
+Take one down and pass it around, 32 of beer on the wall.
+32 bottles of beer on the wall, 32 bottles of beer.
+Take one down and pass it around, 31 of beer on the wall.
+31 bottles of beer on the wall, 31 bottles of beer.
+Take one down and pass it around, 30 of beer on the wall.
+30 bottles of beer on the wall, 30 bottles of beer.
+Take one down and pass it around, 29 of beer on the wall.
+29 bottles of beer on the wall, 29 bottles of beer.
+Take one down and pass it around, 28 of beer on the wall.
+28 bottles of beer on the wall, 28 bottles of beer.
+Take one down and pass it around, 27 of beer on the wall.
+27 bottles of beer on the wall, 27 bottles of beer.
+Take one down and pass it around, 26 of beer on the wall.
+26 bottles of beer on the wall, 26 bottles of beer.
+Take one down and pass it around, 25 of beer on the wall.
+25 bottles of beer on the wall, 25 bottles of beer.
+Take one down and pass it around, 24 of beer on the wall.
+24 bottles of beer on the wall, 24 bottles of beer.
+Take one down and pass it around, 23 of beer on the wall.
+23 bottles of beer on the wall, 23 bottles of beer.
+Take one down and pass it around, 22 of beer on the wall.
+22 bottles of beer on the wall, 22 bottles of beer.
+Take one down and pass it around, 21 of beer on the wall.
+21 bottles of beer on the wall, 21 bottles of beer.
+Take one down and pass it around, 20 of beer on the wall.
+20 bottles of beer on the wall, 20 bottles of beer.
+Take one down and pass it around, 19 of beer on the wall.
+19 bottles of beer on the wall, 19 bottles of beer.
+Take one down and pass it around, 18 of beer on the wall.
+18 bottles of beer on the wall, 18 bottles of beer.
+Take one down and pass it around, 17 of beer on the wall.
+17 bottles of beer on the wall, 17 bottles of beer.
+Take one down and pass it around, 16 of beer on the wall.
+16 bottles of beer on the wall, 16 bottles of beer.
+Take one down and pass it around, 15 of beer on the wall.
+15 bottles of beer on the wall, 15 bottles of beer.
+Take one down and pass it around, 14 of beer on the wall.
+14 bottles of beer on the wall, 14 bottles of beer.
+Take one down and pass it around, 13 of beer on the wall.
+13 bottles of beer on the wall, 13 bottles of beer.
+Take one down and pass it around, 12 of beer on the wall.
+12 bottles of beer on the wall, 12 bottles of beer.
+Take one down and pass it around, 11 of beer on the wall.
+11 bottles of beer on the wall, 11 bottles of beer.
+Take one down and pass it around, 10 of beer on the wall.
+10 bottles of beer on the wall, 10 bottles of beer.
+Take one down and pass it around, 9 of beer on the wall.
+9 bottles of beer on the wall, 9 bottles of beer.
+Take one down and pass it around, 8 of beer on the wall.
+8 bottles of beer on the wall, 8 bottles of beer.
+Take one down and pass it around, 7 of beer on the wall.
+7 bottles of beer on the wall, 7 bottles of beer.
+Take one down and pass it around, 6 of beer on the wall.
+6 bottles of beer on the wall, 6 bottles of beer.
+Take one down and pass it around, 5 of beer on the wall.
+5 bottles of beer on the wall, 5 bottles of beer.
+Take one down and pass it around, 4 of beer on the wall.
+4 bottles of beer on the wall, 4 bottles of beer.
+Take one down and pass it around, 3 of beer on the wall.
+3 bottles of beer on the wall, 3 bottles of beer.
+Take one down and pass it around, 2 of beer on the wall.
+2 bottles of beer on the wall, 2 bottles of beer.
+Take one down and pass it around, 1 of beer on the wall.
+1 bottles of beer on the wall, 1 bottles of beer.
+Take one down and pass it around, no more ]bottles of beer on t...&quot; was not equal to &quot;... pass it around, 98 []bottles of beer on t...&quot;
+	at org.scalatest.MatchersHelper$.indicateFailure(MatchersHelper.scala:340)
+	at org.scalatest.Matchers$ShouldMethodHelper$.shouldMatcher(Matchers.scala:6668)
+	at org.scalatest.Matchers$AnyShouldWrapper.should(Matchers.scala:6704)
+	at BeerSongTest.$anonfun$new$1(BeerSongTest.scala:8)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+	at org.scalatest.FunSuite.withFixture(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike.invokeWithFixture$1(FunSuiteLike.scala:184)
+	at org.scalatest.FunSuiteLike.$anonfun$runTest$1(FunSuiteLike.scala:196)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)
+	at org.scalatest.FunSuiteLike.runTest(FunSuiteLike.scala:196)
+	at org.scalatest.FunSuiteLike.runTest$(FunSuiteLike.scala:178)
+	at org.scalatest.FunSuite.runTest(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike.$anonfun$runTests$1(FunSuiteLike.scala:229)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:396)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:379)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)
+	at org.scalatest.FunSuiteLike.runTests(FunSuiteLike.scala:229)
+	at org.scalatest.FunSuiteLike.runTests$(FunSuiteLike.scala:228)
+	at org.scalatest.FunSuite.runTests(FunSuite.scala:1560)
+	at org.scalatest.Suite.run(Suite.scala:1147)
+	at org.scalatest.Suite.run$(Suite.scala:1129)
+	at org.scalatest.FunSuite.org$scalatest$FunSuiteLike$$super$run(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike.$anonfun$run$1(FunSuiteLike.scala:233)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:521)
+	at org.scalatest.FunSuiteLike.run(FunSuiteLike.scala:233)
+	at org.scalatest.FunSuiteLike.run$(FunSuiteLike.scala:232)
+	at org.scalatest.FunSuite.run(FunSuite.scala:1560)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:507)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:139)
+	at sbt.TestRunner.run(TestFramework.scala:154)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:317)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:277)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)
+	at sbt.TestFunction.apply(TestFramework.scala:329)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:422)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+                                               </testcase><testcase classname="BeerSongTest" name="last generic verse" time="0.001">
+                                                 <skipped/>
+                                               </testcase><testcase classname="BeerSongTest" name="verse with 2 bottles" time="0.001">
+                                                 <skipped/>
+                                               </testcase><testcase classname="BeerSongTest" name="verse with 1 bottle" time="0.001">
+                                                 <skipped/>
+                                               </testcase><testcase classname="BeerSongTest" name="verse with 0 bottles" time="0.001">
+                                                 <skipped/>
+                                               </testcase><testcase classname="BeerSongTest" name="first two verses" time="0.001">
+                                                 <skipped/>
+                                               </testcase><testcase classname="BeerSongTest" name="last three verses" time="0.001">
+                                                 <skipped/>
+                                               </testcase><testcase classname="BeerSongTest" name="all verses" time="0.001">
+                                                 <skipped/>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
